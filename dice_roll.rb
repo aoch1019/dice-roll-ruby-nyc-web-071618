@@ -3,6 +3,6 @@
 # Feel free to google "how to generate a random number in ruby"
 
 def roll
-  die_array = [1..6]
+  die_array = [(1..6)]
   return die_array[rand(1..6)]
 end

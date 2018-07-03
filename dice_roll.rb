@@ -4,5 +4,5 @@
 
 def roll
   die_array = [1,2,3,4,5,6]
-  return die_array[rand(1..6)]
+  return die_array[rand(0..5)]
 end
